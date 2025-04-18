@@ -48,7 +48,7 @@ const projects = [
     title: "Sign Language Detection System",
     description: "This project utilizes deep learning and computer vision to detect and recognize sign language gestures in real-time. Using a Convolutional Neural Network (CNN) trained on a large dataset of hand signs, the system captures live input from a webcam, processes the gestures, and translates them into readable text. It serves as a helpful tool to bridge the communication gap between sign language users and non-signers.",
     technologies: ["React", "D3.js", "Python", "PostgreSQL"],
-    githubLink: "#",
+    githubLink: "https://github.com/sanket7648/Sign_Language_Detection",
     demoLink: "#",
     icon: <FaHandPaper className="text-4xl mb-4 text-blue-600" />,
     image: sign
