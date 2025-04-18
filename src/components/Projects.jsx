@@ -39,7 +39,7 @@ const projects = [
     title: "Water Potability Detection System",
     description: "This project focuses on predicting the potability of water using machine learning models trained on a dataset containing physicochemical features. By analyzing attributes like pH, hardness, solids, chloramines, and more, the system classifies whether the water is safe to drink. It is designed to assist environmental agencies and health organizations in making data-driven decisions for water quality monitoring.",
     technologies: ["React Native", "Firebase", "Redux", "Expo"],
-    githubLink: "#",
+    githubLink: "https://github.com/sanket7648/Water_Potability_Detection",
     demoLink: "#",
     icon: <FaWater className="text-4xl mb-4 text-blue-600" />,
     image: water
