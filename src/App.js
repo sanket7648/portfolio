@@ -1,5 +1,4 @@
 import React from 'react';
-import { Analytics } from "@vercel/analytics/react"
 import Hero from './components/Hero'; // Hero Section
 import Experience from './components/Experience'; // Experience Section
 import Projects from './components/Projects'; // Projects Section
@@ -7,6 +6,7 @@ import Skills from './components/Skills'; // Skills Section
 import Education from './components/Education'; // Education Section
 import Achievements from './components/Achievements'; // Achievements Section
 import Footer from './components/Footer'; // Footer Section
+
 const App = () => {
   return (
     <div>
