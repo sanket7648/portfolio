@@ -1,0 +1,139 @@
+/* Hero section animations */
+.hero-content {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.hero-image {
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero-text {
+  animation: float 4s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  }
+
+
+.floating-icon {
+  position: absolute;
+  opacity: 0.1;
+  animation: floatIcon 15s linear infinite;
+}
+
+.floating-color {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.3;
+  animation: floatColor 20s linear infinite;
+}
+
+.color-1 {
+  background: #FF6B6B;
+  top: 10%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.color-2 {
+  background: #4ECDC4;
+  top: 60%;
+  right: 10%;
+  width: 250px;
+  height: 250px;
+}
+
+.color-3 {
+  background: #FFE66D;
+  bottom: 10%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+}
+
+.color-4 {
+  background: #9B59B6;
+  top: 20%;
+  right: 30%;
+  width: 280px;
+  height: 280px;
+}
+
+.color-5 {
+  background: #2ECC71;
+  bottom: 30%;
+  right: 40%;
+  width: 220px;
+  height: 220px;
+}
+
+.color-6 {
+  background: #E74C3C;
+  top: 40%;
+  left: 15%;
+  width: 260px;
+  height: 260px;
+}
+
+@keyframes floatIcon {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(100px, -50px) rotate(90deg);
+  }
+  50% {
+    transform: translate(50px, -100px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-50px, -50px) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+@keyframes floatColor {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(100px, -50px) scale(1.2);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ... rest of the existing animations ... */ 
